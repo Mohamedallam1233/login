@@ -1,0 +1,237 @@
+body{
+    margin: 0px;
+    font-family: 'Cairo', sans-serif;
+}
+.image_login{
+    background-image: url("pexels-pixabay-207697.jpg");
+    background-size: cover;
+    height: 1024px;
+    overflow: hidden;
+    position: relative;
+}
+.main .image_h1{
+    font-weight: 700;
+    font-size: 32px;
+    align-items:end;
+    color: #fff;
+    line-height: 59.97px;
+    position: absolute;
+    top:312px;
+    left: 262px;
+}
+.main .image_h2{
+    font-weight: 600;
+    font-size: 28px;
+    align-items:end;
+    line-height: 52.47px;
+    color: #fff;
+    position: absolute;
+    top:382px;
+    left: 240px;    
+}
+.main .hr_login{
+width: 83px;
+height: 14px;
+background-color:#fff;
+border-radius: 20px;
+text-align: center;
+position: absolute;
+top:454px;
+left: 295px; 
+}
+
+.header_text{
+    margin-top: 80px;
+    font-size: 28px;
+    font-weight:600;
+    line-height: 52.47px;
+    color: #234C42;
+}
+.login_feilds .kind  {
+    width: 420px;
+}
+.p_kind{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 52.47px;
+    color:#1A1A1A;
+    cursor: pointer;
+}
+
+ .input_style{
+   
+    margin-bottom: 30px;    
+    width: 415px;
+    height: 45px;
+    border: 1.08px solid #B6B6B6;
+    border-radius: 6px;
+}
+
+
+ .label_style{
+    font-size:18px;
+    font-weight: 400;
+    margin-bottom: 5px !important;
+    
+}
+.input_style_sides{
+    margin-bottom: 30px;  
+    width: 155px;
+    height: 45px;
+    border: 1.08px solid #B6B6B6;
+    border-radius: 6px;
+}
+.p_signup{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 33.73px;
+    color:#1A1A1A;
+
+}
+.span_signup{
+color:#CD4A00;
+padding-right: 5px;
+cursor:pointer;
+}
+.tasgel{
+    width: 110px;
+    height: 40px;
+    border-radius:10px;
+    background-color:#234C42;
+    color:#fff;
+    border:0px;
+}
+.registerion,.parent,.teacher{
+    display: none;
+}
+
+.student_bar .first{
+    width: 329px;
+    height: 14px;
+   
+    border-radius:20px 0px 20px 20px;
+    background-color:#234C42;
+    animation: decreaseWidth  1s  ease;
+   
+}
+.student_bar .sec{
+    width: 86px;
+    height: 14px;
+    border-radius:20px 20px 20px 0px;
+    background-color:#CD4A00;
+    animation: increaseWidth 1s ease;
+}
+
+
+
+@keyframes increaseWidth {
+  0% {
+    width: 200px
+  }
+  100% {
+    width: 86px;
+  }
+  
+}
+@keyframes decreaseWidth {
+    0% {
+      width: 200px
+    }
+    100% {
+      width: 329px;
+    }
+    
+}
+
+
+.teacher_bar .sec{
+    width: 329px;
+    height: 14px;
+   
+   
+    border-radius:20px 20px 20px 0px;
+    background-color:#234C42;
+    animation: decreaseWidth 1s ease;
+}
+.teacher_bar .first{
+    width: 86px;
+    height: 14px;
+    border-radius:20px 0px 20px 20px;
+    background-color:#CD4A00;
+    animation: increaseWidth 1s ease;
+}
+
+@keyframes increaseWidth_tec {
+    0% {
+      width: 200px
+    }
+    100% {
+      width: 86px;
+    }
+    
+}
+  @keyframes decreaseWidth_tec {
+      0% {
+        width: 200px
+      }
+      100% {
+        width: 329px;
+      }
+      
+  }
+
+
+.parent_bar .first{
+    width: 155px;
+    height: 14px;
+    border-radius:20px 20px 20px 0px ;
+    background-color: #234C42;
+     animation: increaseWidth_pe 0.8s ease;
+}
+.parent_bar .sec{
+    width: 86px;
+    height: 14px;
+    border-radius:20px 0px 20px 0px;
+    background-color:#CD4A00;
+    animation: increase_mid_Width_pe 0.8s ease;
+}
+
+.parent_bar .third{
+    width: 174px;
+    height: 14px;
+    border-radius:20px 0px 20px 20px;
+    background-color:#234C42;
+    animation: decreaseWidth_pe 0.8s ease;
+}
+
+
+@keyframes increaseWidth_pe{
+    0% {
+      width: 200px
+    }
+    100% {
+      width: 155px;
+    }
+    
+  }
+  @keyframes increase_mid_Width_pe {
+    0% {
+      width: 0px
+    }
+    100% {
+      width: 86px;
+    }
+    
+  }
+  @keyframes decreaseWidth_pe{
+      0% {
+        width: 220px
+      }
+      100% {
+        width: 174px;
+      }
+      
+  }
+
+
+
